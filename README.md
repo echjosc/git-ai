@@ -5,7 +5,19 @@ A single Go binary of AI helpers for git, powered by the Claude CLI
 `gai commit` today, `gai pr` / `gai explain` / `gai changelog` later, each a
 self-contained command.
 
-## Build & install
+## Install
+
+Download a prebuilt binary from the [latest release](https://github.com/echjosc/git-ai/releases/latest)
+(macOS/Linux/Windows, amd64/arm64), extract it, and put `gai` on your `PATH`:
+
+```bash
+curl -sSL https://github.com/echjosc/git-ai/releases/latest/download/gai_darwin_arm64.tar.gz | tar xz
+mv gai ~/.local/bin/gai
+```
+
+(swap `darwin_arm64` for your OS/arch, e.g. `linux_amd64`)
+
+Or build from source:
 
 ```bash
 cd git-ai

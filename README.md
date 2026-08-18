@@ -8,7 +8,7 @@ self-contained command.
 ## Build & install
 
 ```bash
-cd gai
+cd git-ai
 go build -o gai .
 mv gai ~/.local/bin/gai        # anywhere on your PATH
 # or:
